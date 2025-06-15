@@ -10,11 +10,11 @@ Three flags were discovered representing user, SYSTEM, and Administrator-level a
 
 ## Scope
 
-- **Client**: [Your Client Name]
-- **Testers**: [Your Name or Team]
+- **Client**: ____________________.
+- **Testers**: Hitesh Sharma
 - **Test Type**: Internal Network Penetration Test
 - **IP Range**: `10.10.249.67`
-- **Testing Period**: [Insert Dates]
+- **Testing Period**: [16-06-2025 ]
 
 ---
 
@@ -119,6 +119,7 @@ Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c08
 
     flag3.txt: FLAG{ADM1N_DESKTOP_WIN}
 
+
 ### Report Prepared By:
-### Your Name / Handle
- ### Date: 2025-06-15
+### Hitesh Sharma / Handle
+ ### Date: 2025-06-16
